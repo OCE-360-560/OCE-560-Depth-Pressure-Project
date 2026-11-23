@@ -37,6 +37,8 @@ pico_sdk_init()
 add_subdirectory(lib/pico_fatfs)
 add_subdirectory(lib/bno08x)
 add_subdirectory(lib/air530)
+add_subdirectory(lib/veml7700)
+
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(Final_Proj_Main Final_Proj_Main.c 
@@ -54,7 +56,9 @@ pico_enable_stdio_usb(Final_Proj_Main 1)
 
 # Add the standard library to the build
 target_link_libraries(Final_Proj_Main
-        pico_stdlib)
+    pico_stdlib hardware_sync
+    hardware_adc hardware_spi pico_fatfs hardware_i2c 
+    bno08x air530 hardware_uart  hardware_pwm)
 
 # Add the standard include files to the build
 target_include_directories(Final_Proj_Main PRIVATE

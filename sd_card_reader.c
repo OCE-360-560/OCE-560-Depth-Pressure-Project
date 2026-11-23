@@ -11,7 +11,6 @@
 #include "ff.h"      // FatFs: f_mount, f_open, f_write, f_sync
 #include "tf_card.h" // pico_fatfs: SD card pins and clock
 #include "imu.h"
-#include "gps.h"
 
 #define PIN_SCK 18
 #define PIN_TX 19 // PICO: to the card's DI
