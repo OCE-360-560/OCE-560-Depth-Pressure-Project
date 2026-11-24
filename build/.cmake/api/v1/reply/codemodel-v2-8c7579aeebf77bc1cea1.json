@@ -1,0 +1,5110 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 20,
+					"id" : "Python3::Interpreter::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-Python3__Interpreter-Debug-f69b3fa850ef5dbe0da8.json",
+					"name" : "Python3::Interpreter",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "Python3::InterpreterMultiConfig::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-Python3__InterpreterMultiConfig-Debug-4abfa27bf431730b93d0.json",
+					"name" : "Python3::InterpreterMultiConfig",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "_pico_sdk_inclusion_marker::@61333d890cfc0aafb00f",
+					"jsonFile" : "target-_pico_sdk_inclusion_marker-Debug-2286068d1b7edbbec8c0.json",
+					"name" : "_pico_sdk_inclusion_marker",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_pico_sdk_pre_init_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_pico_sdk_pre_init_marker-Debug-4d8343dd8561ab208712.json",
+					"name" : "_pico_sdk_pre_init_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 54,
+					"id" : "boot_bootrom_headers::@441e0f260b6c69e5f9a4",
+					"jsonFile" : "target-boot_bootrom_headers-Debug-fa2751e3d1bc0bf1d8e6.json",
+					"name" : "boot_bootrom_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "boot_picobin_headers::@f20720a4ce9e177f0edc",
+					"jsonFile" : "target-boot_picobin_headers-Debug-96b67ab2eac43ea4bce2.json",
+					"name" : "boot_picobin_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "boot_picoboot_headers::@0e1ac33acb3c4960625d",
+					"jsonFile" : "target-boot_picoboot_headers-Debug-400577ab7724abb3e18f.json",
+					"name" : "boot_picoboot_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "boot_stage2_headers::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-boot_stage2_headers-Debug-f286fc62e48724d1bfaa.json",
+					"name" : "boot_stage2_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "boot_stage2_headers_headers::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-boot_stage2_headers_headers-Debug-c9de618ca16728705011.json",
+					"name" : "boot_stage2_headers_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "boot_uf2_headers::@2bfc8393dcdd6788a3f6",
+					"jsonFile" : "target-boot_uf2_headers-Debug-13b8eba67c83042d629f.json",
+					"name" : "boot_uf2_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "cmsis_core::@1d38ff7600274c0f15cf",
+					"jsonFile" : "target-cmsis_core-Debug-2b4135f2125e634a4d45.json",
+					"name" : "cmsis_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 81,
+					"id" : "cmsis_core_headers::@1d38ff7600274c0f15cf",
+					"jsonFile" : "target-cmsis_core_headers-Debug-5af27dc8651ac2b0f11c.json",
+					"name" : "cmsis_core_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "cybt_shared_bus::@a80cf95ab9cea25b246d",
+					"jsonFile" : "target-cybt_shared_bus-Debug-7cba2f518b2a177bb54a.json",
+					"name" : "cybt_shared_bus",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "cybt_shared_bus_headers::@a80cf95ab9cea25b246d",
+					"jsonFile" : "target-cybt_shared_bus_headers-Debug-b38c240589d82d38e91c.json",
+					"name" : "cybt_shared_bus_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "cyw43_driver::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-cyw43_driver-Debug-58a2064c3c08d3e2f79f.json",
+					"name" : "cyw43_driver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "cyw43_driver_headers::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-cyw43_driver_headers-Debug-24f7cfe5cb3ca5db3d94.json",
+					"name" : "cyw43_driver_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "cyw43_driver_picow::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-cyw43_driver_picow-Debug-b6c9aa854c75a0eb1baa.json",
+					"name" : "cyw43_driver_picow",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "cyw43_driver_picow_headers::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-cyw43_driver_picow_headers-Debug-d39d632eacb2985ddd00.json",
+					"name" : "cyw43_driver_picow_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "hardware_adc::@7313017c71190d9e4bbf",
+					"jsonFile" : "target-hardware_adc-Debug-2d96f9a9bfcb990ca3f2.json",
+					"name" : "hardware_adc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "hardware_adc_headers::@7313017c71190d9e4bbf",
+					"jsonFile" : "target-hardware_adc_headers-Debug-67f2007adb021972c9e1.json",
+					"name" : "hardware_adc_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "hardware_base::@a5773296b645d6c30352",
+					"jsonFile" : "target-hardware_base-Debug-c32bedb5240ae465689d.json",
+					"name" : "hardware_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "hardware_base_headers::@a5773296b645d6c30352",
+					"jsonFile" : "target-hardware_base_headers-Debug-7d9c5256b8fcc3841820.json",
+					"name" : "hardware_base_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "hardware_boot_lock::@8bad4e60087af3637f83",
+					"jsonFile" : "target-hardware_boot_lock-Debug-c4eaced400caae4436fd.json",
+					"name" : "hardware_boot_lock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "hardware_boot_lock_headers::@8bad4e60087af3637f83",
+					"jsonFile" : "target-hardware_boot_lock_headers-Debug-cc2d305d688ab361fd1e.json",
+					"name" : "hardware_boot_lock_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hardware_claim::@25444e7956dbbf3aa99e",
+					"jsonFile" : "target-hardware_claim-Debug-885f4049be103ed57424.json",
+					"name" : "hardware_claim",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "hardware_claim_headers::@25444e7956dbbf3aa99e",
+					"jsonFile" : "target-hardware_claim_headers-Debug-d3186540c4d1ad04b8f6.json",
+					"name" : "hardware_claim_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "hardware_clocks::@252b8e5380721ae85cc3",
+					"jsonFile" : "target-hardware_clocks-Debug-90ae986960aba1154853.json",
+					"name" : "hardware_clocks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "hardware_clocks_headers::@252b8e5380721ae85cc3",
+					"jsonFile" : "target-hardware_clocks_headers-Debug-809e6bcedea003102e45.json",
+					"name" : "hardware_clocks_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "hardware_dcp::@e841c55eff8e858f3c51",
+					"jsonFile" : "target-hardware_dcp-Debug-0555285c4c449100a102.json",
+					"name" : "hardware_dcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 52,
+					"id" : "hardware_dcp_headers::@e841c55eff8e858f3c51",
+					"jsonFile" : "target-hardware_dcp_headers-Debug-c9f61d2ce74ef5928adb.json",
+					"name" : "hardware_dcp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "hardware_divider::@5112540209051185ae08",
+					"jsonFile" : "target-hardware_divider-Debug-19629d23b1c365b5acb7.json",
+					"name" : "hardware_divider",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "hardware_divider_headers::@5112540209051185ae08",
+					"jsonFile" : "target-hardware_divider_headers-Debug-eef6aa73b2fd058a8556.json",
+					"name" : "hardware_divider_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hardware_dma::@0fb4e5fe7d96da9dd1e8",
+					"jsonFile" : "target-hardware_dma-Debug-dac8e76d99a4f80eb9d0.json",
+					"name" : "hardware_dma",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "hardware_dma_headers::@0fb4e5fe7d96da9dd1e8",
+					"jsonFile" : "target-hardware_dma_headers-Debug-20b24be3d27af1339533.json",
+					"name" : "hardware_dma_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "hardware_exception::@f7caa2d380f625680559",
+					"jsonFile" : "target-hardware_exception-Debug-143d0a691091f8ad44a9.json",
+					"name" : "hardware_exception",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "hardware_exception_headers::@f7caa2d380f625680559",
+					"jsonFile" : "target-hardware_exception_headers-Debug-a67201b17a0139c5ae47.json",
+					"name" : "hardware_exception_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "hardware_flash::@49aa2da6eab3b3a59dee",
+					"jsonFile" : "target-hardware_flash-Debug-0176f6d4ac0e72472088.json",
+					"name" : "hardware_flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "hardware_flash_headers::@49aa2da6eab3b3a59dee",
+					"jsonFile" : "target-hardware_flash_headers-Debug-4f5ded84392a0beed197.json",
+					"name" : "hardware_flash_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "hardware_gpio::@ef60da2a8d08f1b751dd",
+					"jsonFile" : "target-hardware_gpio-Debug-681651c6aff0a54800ed.json",
+					"name" : "hardware_gpio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "hardware_gpio_headers::@ef60da2a8d08f1b751dd",
+					"jsonFile" : "target-hardware_gpio_headers-Debug-bc8d89196c87d9f993c5.json",
+					"name" : "hardware_gpio_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hardware_i2c::@bdef0ded4bb164050636",
+					"jsonFile" : "target-hardware_i2c-Debug-f7c27a77c33dd21453fc.json",
+					"name" : "hardware_i2c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "hardware_i2c_headers::@bdef0ded4bb164050636",
+					"jsonFile" : "target-hardware_i2c_headers-Debug-181b5b8b8990ec850eb7.json",
+					"name" : "hardware_i2c_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "hardware_interp::@2bc84a2f482b1cca8f70",
+					"jsonFile" : "target-hardware_interp-Debug-b3f423da4b1e7e6b76e5.json",
+					"name" : "hardware_interp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "hardware_interp_headers::@2bc84a2f482b1cca8f70",
+					"jsonFile" : "target-hardware_interp_headers-Debug-581f4bc184550d776a88.json",
+					"name" : "hardware_interp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "hardware_irq::@381ff19abb5cef8d2924",
+					"jsonFile" : "target-hardware_irq-Debug-ebf1a088b18f09458669.json",
+					"name" : "hardware_irq",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 32,
+					"id" : "hardware_irq_headers::@381ff19abb5cef8d2924",
+					"jsonFile" : "target-hardware_irq_headers-Debug-9711c976185ef1700efd.json",
+					"name" : "hardware_irq_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "hardware_pio::@e01f79172179c7736f7b",
+					"jsonFile" : "target-hardware_pio-Debug-9f658a126e45d229491d.json",
+					"name" : "hardware_pio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 33,
+					"id" : "hardware_pio_headers::@e01f79172179c7736f7b",
+					"jsonFile" : "target-hardware_pio_headers-Debug-d17ea627b89ceee44898.json",
+					"name" : "hardware_pio_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "hardware_pll::@864132fa0bc404aa48a8",
+					"jsonFile" : "target-hardware_pll-Debug-5decb0ac7abbb0533789.json",
+					"name" : "hardware_pll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 34,
+					"id" : "hardware_pll_headers::@864132fa0bc404aa48a8",
+					"jsonFile" : "target-hardware_pll_headers-Debug-992869c5bb772e911c4c.json",
+					"name" : "hardware_pll_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "hardware_powman::@f60fbb154d0b4efe3294",
+					"jsonFile" : "target-hardware_powman-Debug-e3c5f932fbfe6ce53bf6.json",
+					"name" : "hardware_powman",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 48,
+					"id" : "hardware_powman_headers::@f60fbb154d0b4efe3294",
+					"jsonFile" : "target-hardware_powman_headers-Debug-4725d1453a085807666f.json",
+					"name" : "hardware_powman_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "hardware_psram::@93d511480e573c103ab4",
+					"jsonFile" : "target-hardware_psram-Debug-2798d0a21dec4411ee40.json",
+					"name" : "hardware_psram",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 49,
+					"id" : "hardware_psram_headers::@93d511480e573c103ab4",
+					"jsonFile" : "target-hardware_psram_headers-Debug-ec4cc9b8534d420ed13f.json",
+					"name" : "hardware_psram_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "hardware_pwm::@e5ce456a53d74a369a3f",
+					"jsonFile" : "target-hardware_pwm-Debug-e7733f31e4063ef32654.json",
+					"name" : "hardware_pwm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 35,
+					"id" : "hardware_pwm_headers::@e5ce456a53d74a369a3f",
+					"jsonFile" : "target-hardware_pwm_headers-Debug-98d095c35005045c7f6a.json",
+					"name" : "hardware_pwm_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "hardware_rcp::@fdafcca163d4783c5470",
+					"jsonFile" : "target-hardware_rcp-Debug-a828ea6e232795813cfe.json",
+					"name" : "hardware_rcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 53,
+					"id" : "hardware_rcp_headers::@fdafcca163d4783c5470",
+					"jsonFile" : "target-hardware_rcp_headers-Debug-8fd35a0a55ff76e7b9d3.json",
+					"name" : "hardware_rcp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hardware_regs::@fbd87489b9fc40812c94",
+					"jsonFile" : "target-hardware_regs-Debug-6cf1b97f91e2b483a42f.json",
+					"name" : "hardware_regs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "hardware_regs_headers::@fbd87489b9fc40812c94",
+					"jsonFile" : "target-hardware_regs_headers-Debug-275207fa5a128fb61630.json",
+					"name" : "hardware_regs_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "hardware_resets::@622030ee2b89d8666202",
+					"jsonFile" : "target-hardware_resets-Debug-f79086e4dcf5468a68d0.json",
+					"name" : "hardware_resets",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 36,
+					"id" : "hardware_resets_headers::@622030ee2b89d8666202",
+					"jsonFile" : "target-hardware_resets_headers-Debug-cef0c270b7136b1ba204.json",
+					"name" : "hardware_resets_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "hardware_riscv_platform_timer::@2248831e18f80a59e5e7",
+					"jsonFile" : "target-hardware_riscv_platform_timer-Debug-845fc7268bd0a46d0439.json",
+					"name" : "hardware_riscv_platform_timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 50,
+					"id" : "hardware_riscv_platform_timer_headers::@2248831e18f80a59e5e7",
+					"jsonFile" : "target-hardware_riscv_platform_timer_headers-Debug-920589516b68902c81c1.json",
+					"name" : "hardware_riscv_platform_timer_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "hardware_rosc::@0979500de55c13be671f",
+					"jsonFile" : "target-hardware_rosc-Debug-b52f749ca6020b7930a0.json",
+					"name" : "hardware_rosc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 37,
+					"id" : "hardware_rosc_headers::@0979500de55c13be671f",
+					"jsonFile" : "target-hardware_rosc_headers-Debug-e2fa4d01be03b33bb94c.json",
+					"name" : "hardware_rosc_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "hardware_sha256::@67a463d7be3e9097618c",
+					"jsonFile" : "target-hardware_sha256-Debug-52a9230c26f7216b3dd2.json",
+					"name" : "hardware_sha256",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 51,
+					"id" : "hardware_sha256_headers::@67a463d7be3e9097618c",
+					"jsonFile" : "target-hardware_sha256_headers-Debug-ead7c7eb96b68782e634.json",
+					"name" : "hardware_sha256_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "hardware_spi::@eafa2cefbeacba1047b8",
+					"jsonFile" : "target-hardware_spi-Debug-38bdaa78d921ae69e715.json",
+					"name" : "hardware_spi",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 38,
+					"id" : "hardware_spi_headers::@eafa2cefbeacba1047b8",
+					"jsonFile" : "target-hardware_spi_headers-Debug-ee3daf42a0e7a34ccbad.json",
+					"name" : "hardware_spi_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "hardware_structs::@09cfa73b2e42dc9b73b0",
+					"jsonFile" : "target-hardware_structs-Debug-bed5aa0d9d0b497ecf47.json",
+					"name" : "hardware_structs",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "hardware_structs_headers::@09cfa73b2e42dc9b73b0",
+					"jsonFile" : "target-hardware_structs_headers-Debug-1e5299f4353f9ef87321.json",
+					"name" : "hardware_structs_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "hardware_sync::@786cdbe0562c81b78078",
+					"jsonFile" : "target-hardware_sync-Debug-079469a762f66054998e.json",
+					"name" : "hardware_sync",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 39,
+					"id" : "hardware_sync_headers::@786cdbe0562c81b78078",
+					"jsonFile" : "target-hardware_sync_headers-Debug-79d3e8dfe3a867441f73.json",
+					"name" : "hardware_sync_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "hardware_sync_spin_lock::@8f3aed3a1fdc530021b6",
+					"jsonFile" : "target-hardware_sync_spin_lock-Debug-d5bb3ca5862266120c72.json",
+					"name" : "hardware_sync_spin_lock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 40,
+					"id" : "hardware_sync_spin_lock_headers::@8f3aed3a1fdc530021b6",
+					"jsonFile" : "target-hardware_sync_spin_lock_headers-Debug-144a17d3ea6cebbc7683.json",
+					"name" : "hardware_sync_spin_lock_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "hardware_ticks::@f1684d0651811fba007d",
+					"jsonFile" : "target-hardware_ticks-Debug-30e3a2f34000803e59f7.json",
+					"name" : "hardware_ticks",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 41,
+					"id" : "hardware_ticks_headers::@f1684d0651811fba007d",
+					"jsonFile" : "target-hardware_ticks_headers-Debug-7a793fe29f9d7e8dd1e2.json",
+					"name" : "hardware_ticks_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "hardware_timer::@f60a61f0194575541685",
+					"jsonFile" : "target-hardware_timer-Debug-386bc9b8a8e60e2c463d.json",
+					"name" : "hardware_timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 42,
+					"id" : "hardware_timer_headers::@f60a61f0194575541685",
+					"jsonFile" : "target-hardware_timer_headers-Debug-f524d9cb5058f5d62ac2.json",
+					"name" : "hardware_timer_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "hardware_uart::@6760ac481d50fbd80aa4",
+					"jsonFile" : "target-hardware_uart-Debug-4b9c4e5c9d530eb87b38.json",
+					"name" : "hardware_uart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 43,
+					"id" : "hardware_uart_headers::@6760ac481d50fbd80aa4",
+					"jsonFile" : "target-hardware_uart_headers-Debug-1fe2e8d7f633ebfeedbd.json",
+					"name" : "hardware_uart_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "hardware_vreg::@d5efd3b638ba54121858",
+					"jsonFile" : "target-hardware_vreg-Debug-f0671d6179c49021db4a.json",
+					"name" : "hardware_vreg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 44,
+					"id" : "hardware_vreg_headers::@d5efd3b638ba54121858",
+					"jsonFile" : "target-hardware_vreg_headers-Debug-852cdaf6642db90cdb94.json",
+					"name" : "hardware_vreg_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "hardware_watchdog::@fe39872c9224b6b44cb2",
+					"jsonFile" : "target-hardware_watchdog-Debug-72deb84f7444f2665806.json",
+					"name" : "hardware_watchdog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 45,
+					"id" : "hardware_watchdog_headers::@fe39872c9224b6b44cb2",
+					"jsonFile" : "target-hardware_watchdog_headers-Debug-cbc9b2ddccb62a9b4d7a.json",
+					"name" : "hardware_watchdog_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "hardware_xip_cache::@d89a83f4604ba86630cb",
+					"jsonFile" : "target-hardware_xip_cache-Debug-b86996a2aec5e5e67abb.json",
+					"name" : "hardware_xip_cache",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 46,
+					"id" : "hardware_xip_cache_headers::@d89a83f4604ba86630cb",
+					"jsonFile" : "target-hardware_xip_cache_headers-Debug-02c853787292e6911883.json",
+					"name" : "hardware_xip_cache_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "hardware_xosc::@1b79692a888f9c5e3d4b",
+					"jsonFile" : "target-hardware_xosc-Debug-480929b06705726f0cf3.json",
+					"name" : "hardware_xosc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 47,
+					"id" : "hardware_xosc_headers::@1b79692a888f9c5e3d4b",
+					"jsonFile" : "target-hardware_xosc_headers-Debug-f3b28e5dc38a3ff53067.json",
+					"name" : "hardware_xosc_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "pico_aon_timer::@ca89fbf7ca781a92dbd7",
+					"jsonFile" : "target-pico_aon_timer-Debug-19ce60910fd9cf4d660a.json",
+					"name" : "pico_aon_timer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 59,
+					"id" : "pico_aon_timer_headers::@ca89fbf7ca781a92dbd7",
+					"jsonFile" : "target-pico_aon_timer_headers-Debug-2becf2b8cfa015af923b.json",
+					"name" : "pico_aon_timer_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_base::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_base-Debug-d61d47d3c72f2e8b238b.json",
+					"name" : "pico_async_context_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_base_headers::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_base_headers-Debug-c3d5f62867d0cf935824.json",
+					"name" : "pico_async_context_base_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_freertos::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_freertos-Debug-09d6791979b66c57448a.json",
+					"name" : "pico_async_context_freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_freertos_headers::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_freertos_headers-Debug-a1f5716a5c7346685c83.json",
+					"name" : "pico_async_context_freertos_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_poll::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_poll-Debug-84b89d6ab12de9b7ad27.json",
+					"name" : "pico_async_context_poll",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_poll_headers::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_poll_headers-Debug-e59353edadbd48ab1a88.json",
+					"name" : "pico_async_context_poll_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_threadsafe_background::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_threadsafe_background-Debug-bce17254061e042052c6.json",
+					"name" : "pico_async_context_threadsafe_background",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 86,
+					"id" : "pico_async_context_threadsafe_background_headers::@2bada4798cde7aec159e",
+					"jsonFile" : "target-pico_async_context_threadsafe_background_headers-Debug-5de7e5ec8f38323da3e2.json",
+					"name" : "pico_async_context_threadsafe_background_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "pico_atomic::@897a091375db775bac4c",
+					"jsonFile" : "target-pico_atomic-Debug-b80a11beeab9c941a1c8.json",
+					"name" : "pico_atomic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 64,
+					"id" : "pico_atomic_headers::@897a091375db775bac4c",
+					"jsonFile" : "target-pico_atomic_headers-Debug-804164209e6c2f1621c8.json",
+					"name" : "pico_atomic_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pico_base::@33789676aab31f619839",
+					"jsonFile" : "target-pico_base-Debug-ab33b5ae8406b23bdd35.json",
+					"name" : "pico_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "pico_base_headers::@33789676aab31f619839",
+					"jsonFile" : "target-pico_base_headers-Debug-af32b19b83699fb7c111.json",
+					"name" : "pico_base_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pico_binary_info::@2be179807169b375a57c",
+					"jsonFile" : "target-pico_binary_info-Debug-206112694f2deeb77f89.json",
+					"name" : "pico_binary_info",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "pico_binary_info_headers::@2be179807169b375a57c",
+					"jsonFile" : "target-pico_binary_info_headers-Debug-5d5bb36cba31add53d14.json",
+					"name" : "pico_binary_info_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops-Debug-49bcfeac7923ccb8153e.json",
+					"name" : "pico_bit_ops",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops_compiler::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops_compiler-Debug-aa1235f5da78f13f8d89.json",
+					"name" : "pico_bit_ops_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops_compiler_headers::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops_compiler_headers-Debug-82e11185d5cca93475b3.json",
+					"name" : "pico_bit_ops_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops_default::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops_default-Debug-23d33c18b9eccc9fcf77.json",
+					"name" : "pico_bit_ops_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "pico_bit_ops_headers::@4c138bd7234ff2fdcb61",
+					"jsonFile" : "target-pico_bit_ops_headers-Debug-5d834fc52c1a71b21b7f.json",
+					"name" : "pico_bit_ops_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops_pico::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops_pico-Debug-99a8991bb8fdf6463b28.json",
+					"name" : "pico_bit_ops_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 65,
+					"id" : "pico_bit_ops_pico_headers::@29d4edaf53e96bb95837",
+					"jsonFile" : "target-pico_bit_ops_pico_headers-Debug-8833b4b3e93541bd5a90.json",
+					"name" : "pico_bit_ops_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "pico_bootrom::@5b7a36be3eedb58ea3ff",
+					"jsonFile" : "target-pico_bootrom-Debug-3d940dbaa1be8f0b56f4.json",
+					"name" : "pico_bootrom",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "pico_bootrom_headers::@5b7a36be3eedb58ea3ff",
+					"jsonFile" : "target-pico_bootrom_headers-Debug-adfa787349bb1670275e.json",
+					"name" : "pico_bootrom_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 60,
+					"id" : "pico_bootrom_headers_headers::@5b7a36be3eedb58ea3ff",
+					"jsonFile" : "target-pico_bootrom_headers_headers-Debug-657994dfb2d9910d6fa1.json",
+					"name" : "pico_bootrom_headers_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "pico_bootsel_via_double_reset::@b20ac36d0bc1e6749031",
+					"jsonFile" : "target-pico_bootsel_via_double_reset-Debug-843052261152f0cb83b1.json",
+					"name" : "pico_bootsel_via_double_reset",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 61,
+					"id" : "pico_bootsel_via_double_reset_headers::@b20ac36d0bc1e6749031",
+					"jsonFile" : "target-pico_bootsel_via_double_reset_headers-Debug-650056611bb7693ad9ab.json",
+					"name" : "pico_bootsel_via_double_reset_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_base::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_base-Debug-1429bd8d98cc17c317c9.json",
+					"name" : "pico_btstack_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_base_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_base_headers-Debug-e8dfe0028682911e014c.json",
+					"name" : "pico_btstack_base_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_ble::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_ble-Debug-9183167f1859fdbd9d3d.json",
+					"name" : "pico_btstack_ble",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_ble_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_ble_headers-Debug-d19cc8fd90b56ac76dd1.json",
+					"name" : "pico_btstack_ble_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_bnep_lwip::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_bnep_lwip-Debug-039eac8ae00258e53e05.json",
+					"name" : "pico_btstack_bnep_lwip",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_bnep_lwip_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_bnep_lwip_headers-Debug-8b8c50347ae6b315cbb5.json",
+					"name" : "pico_btstack_bnep_lwip_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_bnep_lwip_sys_freertos::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_bnep_lwip_sys_freertos-Debug-754b26faff85c2278ffc.json",
+					"name" : "pico_btstack_bnep_lwip_sys_freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_bnep_lwip_sys_freertos_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_bnep_lwip_sys_freertos_headers-Debug-a7027b693fcaa4749126.json",
+					"name" : "pico_btstack_bnep_lwip_sys_freertos_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_classic::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_classic-Debug-b66370fd41c51c5cc224.json",
+					"name" : "pico_btstack_classic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_classic_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_classic_headers-Debug-64a4780ad1588e7dd6e2.json",
+					"name" : "pico_btstack_classic_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_flash_bank::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_flash_bank-Debug-ddf655ffdcea8bb5c169.json",
+					"name" : "pico_btstack_flash_bank",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_flash_bank_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_flash_bank_headers-Debug-557ae6259b244b932132.json",
+					"name" : "pico_btstack_flash_bank_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "pico_btstack_hci_transport_cyw43::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-pico_btstack_hci_transport_cyw43-Debug-f331e0e25d7f72e94c90.json",
+					"name" : "pico_btstack_hci_transport_cyw43",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "pico_btstack_hci_transport_cyw43_headers::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-pico_btstack_hci_transport_cyw43_headers-Debug-bdf91fbf23cd3c758371.json",
+					"name" : "pico_btstack_hci_transport_cyw43_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_mesh::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_mesh-Debug-be3e03e705ed2fc53dc4.json",
+					"name" : "pico_btstack_mesh",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_mesh_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_mesh_headers-Debug-0b56023f787881aacc5d.json",
+					"name" : "pico_btstack_mesh_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_run_loop_async_context::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_run_loop_async_context-Debug-4fd2f1aa77c76b1a2633.json",
+					"name" : "pico_btstack_run_loop_async_context",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_run_loop_async_context_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_run_loop_async_context_headers-Debug-1283f55c65b134240e19.json",
+					"name" : "pico_btstack_run_loop_async_context_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_common::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_common-Debug-ccdde8069e2d8fd3f901.json",
+					"name" : "pico_btstack_sbc_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_common_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_common_headers-Debug-1b4bdd9d445825db0aba.json",
+					"name" : "pico_btstack_sbc_common_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_decoder::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_decoder-Debug-245cdcc7f87f57499be5.json",
+					"name" : "pico_btstack_sbc_decoder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_decoder_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_decoder_headers-Debug-cdbc4dbe5df358848ca3.json",
+					"name" : "pico_btstack_sbc_decoder_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_encoder::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_encoder-Debug-43c185d72407317509ce.json",
+					"name" : "pico_btstack_sbc_encoder",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 87,
+					"id" : "pico_btstack_sbc_encoder_headers::@ea60c734c83cae3783be",
+					"jsonFile" : "target-pico_btstack_sbc_encoder_headers-Debug-dd49f21a2141e1711852.json",
+					"name" : "pico_btstack_sbc_encoder_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_clib_interface::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_clib_interface-Debug-c206a0f4b6decd577178.json",
+					"name" : "pico_clib_interface",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_clib_interface_headers::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_clib_interface_headers-Debug-5758ece97eabdfb61203.json",
+					"name" : "pico_clib_interface_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "pico_crt0::@16576375c08f837c0ec0",
+					"jsonFile" : "target-pico_crt0-Debug-aaf8de98d92bc1a20be8.json",
+					"name" : "pico_crt0",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "pico_crt0_headers::@16576375c08f837c0ec0",
+					"jsonFile" : "target-pico_crt0_headers-Debug-4c5d859b0f199cc63fec.json",
+					"name" : "pico_crt0_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "pico_cxx_options::@7742b64696d4b91efa85",
+					"jsonFile" : "target-pico_cxx_options-Debug-f8c5672b5e25d2ae6307.json",
+					"name" : "pico_cxx_options",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 97,
+					"id" : "pico_cxx_options_headers::@7742b64696d4b91efa85",
+					"jsonFile" : "target-pico_cxx_options_headers-Debug-cbb970a211c44f322fac.json",
+					"name" : "pico_cxx_options_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "pico_cyw43_driver::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-pico_cyw43_driver-Debug-9cf9d6b5db1d1f6a1b7e.json",
+					"name" : "pico_cyw43_driver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "pico_cyw43_driver_headers::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-pico_cyw43_driver_headers-Debug-462770abe2a1e263ad94.json",
+					"name" : "pico_cyw43_driver_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider-Debug-43a5157da0a1c11fe56f.json",
+					"name" : "pico_divider",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_compiler::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_compiler-Debug-9c9b51118cca03a0c163.json",
+					"name" : "pico_divider_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_compiler_headers::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_compiler_headers-Debug-94af4382453bae9eea25.json",
+					"name" : "pico_divider_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_default::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_default-Debug-a7a541ab43bd7e788a36.json",
+					"name" : "pico_divider_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_hardware::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_hardware-Debug-b98d4b5bac05e08d187b.json",
+					"name" : "pico_divider_hardware",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_hardware_explicit::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_hardware_explicit-Debug-9f229f6deed94fcb845c.json",
+					"name" : "pico_divider_hardware_explicit",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_hardware_explicit_headers::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_hardware_explicit_headers-Debug-f06ed21ac3602f0a25ef.json",
+					"name" : "pico_divider_hardware_explicit_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_hardware_headers::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_hardware_headers-Debug-c7968ba88a8bf468a0fe.json",
+					"name" : "pico_divider_hardware_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "pico_divider_headers::@7679f4a0dcb1c54b4c52",
+					"jsonFile" : "target-pico_divider_headers-Debug-5a4f41d3a2e0fc5c1af3.json",
+					"name" : "pico_divider_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 66,
+					"id" : "pico_divider_pico::@07fc49347ff7302362f1",
+					"jsonFile" : "target-pico_divider_pico-Debug-710735e6e7f083076fcc.json",
+					"name" : "pico_divider_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double-Debug-de1819ee8d7ae966a0bf.json",
+					"name" : "pico_double",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_compiler::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_compiler-Debug-f9273f1de52f24bcc131.json",
+					"name" : "pico_double_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_compiler_headers::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_compiler_headers-Debug-bace63bc76f75444756f.json",
+					"name" : "pico_double_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_default::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_default-Debug-371e2b9a34007a639380.json",
+					"name" : "pico_double_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_headers::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_headers-Debug-2d5312c78523b262d3fa.json",
+					"name" : "pico_double_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_none::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_none-Debug-309e3470d106cdd3156a.json",
+					"name" : "pico_double_none",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_none_headers::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_none_headers-Debug-b2f42ff131427813bd94.json",
+					"name" : "pico_double_none_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_pico::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_pico-Debug-007ca75f66f1a45d7198.json",
+					"name" : "pico_double_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_pico_dcp::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_pico_dcp-Debug-82d61a24a0004f9a7828.json",
+					"name" : "pico_double_pico_dcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_pico_dcp_headers::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_pico_dcp_headers-Debug-1fc419228d874b79eaba.json",
+					"name" : "pico_double_pico_dcp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 67,
+					"id" : "pico_double_pico_headers::@ab259a064a43323d6260",
+					"jsonFile" : "target-pico_double_pico_headers-Debug-e4399094f6d918ecbcd1.json",
+					"name" : "pico_double_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 101,
+					"id" : "pico_fix_rp2040_usb_device_enumeration::@d991e5c4e714770d926b",
+					"jsonFile" : "target-pico_fix_rp2040_usb_device_enumeration-Debug-f929ef8eb20d8d221e64.json",
+					"name" : "pico_fix_rp2040_usb_device_enumeration",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 101,
+					"id" : "pico_fix_rp2040_usb_device_enumeration_headers::@d991e5c4e714770d926b",
+					"jsonFile" : "target-pico_fix_rp2040_usb_device_enumeration_headers-Debug-820c505b303d0dccd5fd.json",
+					"name" : "pico_fix_rp2040_usb_device_enumeration_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "pico_flash::@d0c4b60a6f02ef13fa32",
+					"jsonFile" : "target-pico_flash-Debug-a0cee0d58ad930e74f07.json",
+					"name" : "pico_flash",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 69,
+					"id" : "pico_flash_headers::@d0c4b60a6f02ef13fa32",
+					"jsonFile" : "target-pico_flash_headers-Debug-787e430bdcc9b1b60746.json",
+					"name" : "pico_flash_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float-Debug-029a03538e1c51028d94.json",
+					"name" : "pico_float",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_compiler::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_compiler-Debug-b5a057f79a693953c4fe.json",
+					"name" : "pico_float_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_compiler_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_compiler_headers-Debug-2b1b111cc6ae10fdfff9.json",
+					"name" : "pico_float_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_default::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_default-Debug-8ff18221782ab4c78086.json",
+					"name" : "pico_float_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_headers-Debug-4639c25a35bfb62e7f97.json",
+					"name" : "pico_float_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_none::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_none-Debug-6a4efaa37b0362a15e4f.json",
+					"name" : "pico_float_none",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_none_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_none_headers-Debug-d08c86f7f3002b14b654.json",
+					"name" : "pico_float_none_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico-Debug-2f1baaa5f8c367a4615d.json",
+					"name" : "pico_float_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico_dcp::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico_dcp-Debug-05f1b5bf8906f8a80f11.json",
+					"name" : "pico_float_pico_dcp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico_dcp_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico_dcp_headers-Debug-8520a7b6d672850d218f.json",
+					"name" : "pico_float_pico_dcp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico_headers-Debug-0c90771f087db52897e0.json",
+					"name" : "pico_float_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico_vfp::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico_vfp-Debug-3b4ba2a3d68824633662.json",
+					"name" : "pico_float_pico_vfp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 70,
+					"id" : "pico_float_pico_vfp_headers::@34bdbf50623dcb85eac7",
+					"jsonFile" : "target-pico_float_pico_vfp_headers-Debug-eaf67997459abf281ba5.json",
+					"name" : "pico_float_pico_vfp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "pico_i2c_slave::@8ab26f54d61997c81efe",
+					"jsonFile" : "target-pico_i2c_slave-Debug-a22c78a1c884f1144e46.json",
+					"name" : "pico_i2c_slave",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "pico_i2c_slave_headers::@8ab26f54d61997c81efe",
+					"jsonFile" : "target-pico_i2c_slave_headers-Debug-3f8f68246b89ff8e3879.json",
+					"name" : "pico_i2c_slave_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops-Debug-05a6cea6c350b4d1a9b9.json",
+					"name" : "pico_int64_ops",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_compiler::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_compiler-Debug-38796a6aa81a63119028.json",
+					"name" : "pico_int64_ops_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_compiler_headers::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_compiler_headers-Debug-cd70c83044dd016d637a.json",
+					"name" : "pico_int64_ops_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_default::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_default-Debug-320a6b2ccb6a92efe84f.json",
+					"name" : "pico_int64_ops_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_headers::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_headers-Debug-9bc9248db1e84364a6f7.json",
+					"name" : "pico_int64_ops_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_pico::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_pico-Debug-53297d728743be85fb3a.json",
+					"name" : "pico_int64_ops_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 68,
+					"id" : "pico_int64_ops_pico_headers::@ab1ccc05594a9ba490cb",
+					"jsonFile" : "target-pico_int64_ops_pico_headers-Debug-17b823786ad759d1b5f3.json",
+					"name" : "pico_int64_ops_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_llvm_libc_interface::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_llvm_libc_interface-Debug-02064b1ac6a3d4fe6616.json",
+					"name" : "pico_llvm_libc_interface",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_llvm_libc_interface_headers::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_llvm_libc_interface_headers-Debug-db46cce3adb402304bb6.json",
+					"name" : "pico_llvm_libc_interface_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "pico_low_power::@1d3a92d146eee19c7fc1",
+					"jsonFile" : "target-pico_low_power-Debug-8d644298781f6812f968.json",
+					"name" : "pico_low_power",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 71,
+					"id" : "pico_low_power_headers::@1d3a92d146eee19c7fc1",
+					"jsonFile" : "target-pico_low_power_headers-Debug-c82a493ff233537f5bb4.json",
+					"name" : "pico_low_power_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip-Debug-5e2452570ef0937e3cb5.json",
+					"name" : "pico_lwip",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_api::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_api-Debug-d2386455846dc3107775.json",
+					"name" : "pico_lwip_api",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_api_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_api_headers-Debug-dd1ef32bdbbad086c8b6.json",
+					"name" : "pico_lwip_api_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_arch::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_arch-Debug-65c6de5d12b35bba9c37.json",
+					"name" : "pico_lwip_arch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_arch_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_arch_headers-Debug-cd4519bc92ce29b91ea0.json",
+					"name" : "pico_lwip_arch_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_contrib_freertos::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_contrib_freertos-Debug-d0ac037dcd1296f406ca.json",
+					"name" : "pico_lwip_contrib_freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_contrib_freertos_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_contrib_freertos_headers-Debug-9f96022c722875620291.json",
+					"name" : "pico_lwip_contrib_freertos_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core-Debug-7588a26a08b4012d78d2.json",
+					"name" : "pico_lwip_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core4::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core4-Debug-4ddd1ed909a3b6102b03.json",
+					"name" : "pico_lwip_core4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core4_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core4_headers-Debug-5d107ce644e306f0f1b5.json",
+					"name" : "pico_lwip_core4_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core6::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core6-Debug-af0cf746e00ebc8e4627.json",
+					"name" : "pico_lwip_core6",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core6_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core6_headers-Debug-72959730166b7a45bda4.json",
+					"name" : "pico_lwip_core6_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_core_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_core_headers-Debug-52deaaeb2ab7d337342a.json",
+					"name" : "pico_lwip_core_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_freertos::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_freertos-Debug-7e8af1cab04d5e913fa4.json",
+					"name" : "pico_lwip_freertos",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_freertos_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_freertos_headers-Debug-82aeccbc803cc136e63b.json",
+					"name" : "pico_lwip_freertos_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_headers-Debug-083a7216ee0e0fe177c9.json",
+					"name" : "pico_lwip_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_http::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_http-Debug-33460fecff7d44542c6b.json",
+					"name" : "pico_lwip_http",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_http_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_http_headers-Debug-7f954a443bef1ce7d0c8.json",
+					"name" : "pico_lwip_http_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_iperf::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_iperf-Debug-0e559c76ade60c3ed5cb.json",
+					"name" : "pico_lwip_iperf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_iperf_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_iperf_headers-Debug-b23436eed6eaf3d1022c.json",
+					"name" : "pico_lwip_iperf_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_makefsdata::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_makefsdata-Debug-5f85819b9dc63f4ba06a.json",
+					"name" : "pico_lwip_makefsdata",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_makefsdata_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_makefsdata_headers-Debug-274232f2d7eb966deb01.json",
+					"name" : "pico_lwip_makefsdata_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mbedtls::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mbedtls-Debug-ae782c2ff59fbfc46164.json",
+					"name" : "pico_lwip_mbedtls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mbedtls_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mbedtls_headers-Debug-901de85b20a571b86e94.json",
+					"name" : "pico_lwip_mbedtls_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mdns::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mdns-Debug-60b3d9abb3f7c2f8cd86.json",
+					"name" : "pico_lwip_mdns",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mdns_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mdns_headers-Debug-ed9d387cdb9abb97d545.json",
+					"name" : "pico_lwip_mdns_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mqtt::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mqtt-Debug-48e7ed0bed84107294f7.json",
+					"name" : "pico_lwip_mqtt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_mqtt_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_mqtt_headers-Debug-8c3d0146f88cc18dbc20.json",
+					"name" : "pico_lwip_mqtt_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_netbios::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_netbios-Debug-a8f6fb14fa7f3d667600.json",
+					"name" : "pico_lwip_netbios",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_netbios_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_netbios_headers-Debug-6b9d35896a964d93f3b4.json",
+					"name" : "pico_lwip_netbios_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_netif::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_netif-Debug-84f215b4a3759fa12ae4.json",
+					"name" : "pico_lwip_netif",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_netif_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_netif_headers-Debug-2b3a3f2ea97d13741894.json",
+					"name" : "pico_lwip_netif_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_nosys::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_nosys-Debug-d3573bd154f661cb169d.json",
+					"name" : "pico_lwip_nosys",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_nosys_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_nosys_headers-Debug-2e7351ae58059aa50848.json",
+					"name" : "pico_lwip_nosys_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_ppp::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_ppp-Debug-48596650836ab864f9b1.json",
+					"name" : "pico_lwip_ppp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_ppp_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_ppp_headers-Debug-37531d516a19e287661d.json",
+					"name" : "pico_lwip_ppp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_sixlowpan::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_sixlowpan-Debug-741d3562da9c22d3c7b7.json",
+					"name" : "pico_lwip_sixlowpan",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_sixlowpan_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_sixlowpan_headers-Debug-518bb699e8faee8f5739.json",
+					"name" : "pico_lwip_sixlowpan_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_smtp::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_smtp-Debug-83cd6e8e41efad5dcd24.json",
+					"name" : "pico_lwip_smtp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_smtp_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_smtp_headers-Debug-61a57a0749d36792b68e.json",
+					"name" : "pico_lwip_smtp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_snmp::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_snmp-Debug-e69218462a56458a7033.json",
+					"name" : "pico_lwip_snmp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_snmp_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_snmp_headers-Debug-50be4b2f35c4f5428a63.json",
+					"name" : "pico_lwip_snmp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_sntp::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_sntp-Debug-64c624feeb2e56e2adc4.json",
+					"name" : "pico_lwip_sntp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_sntp_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_sntp_headers-Debug-2b89c1ebf468b3a5743d.json",
+					"name" : "pico_lwip_sntp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_tftp::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_tftp-Debug-48c019f029b60a7ee10f.json",
+					"name" : "pico_lwip_tftp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 91,
+					"id" : "pico_lwip_tftp_headers::@326b75ffe4e21227bb21",
+					"jsonFile" : "target-pico_lwip_tftp_headers-Debug-eaa68698d820b47ea972.json",
+					"name" : "pico_lwip_tftp_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "pico_malloc::@4c8c2e90fff1e2188e9b",
+					"jsonFile" : "target-pico_malloc-Debug-96dcbef2aac87e1c194f.json",
+					"name" : "pico_malloc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 73,
+					"id" : "pico_malloc_headers::@4c8c2e90fff1e2188e9b",
+					"jsonFile" : "target-pico_malloc_headers-Debug-2c5437c6ee6532b246a5.json",
+					"name" : "pico_malloc_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls-Debug-2254a127ef91278744bf.json",
+					"name" : "pico_mbedtls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_crypto::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_crypto-Debug-0737ee389248bc26cc64.json",
+					"name" : "pico_mbedtls_crypto",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_crypto_headers::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_crypto_headers-Debug-e5e8f4d3c978c09c60a0.json",
+					"name" : "pico_mbedtls_crypto_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_headers::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_headers-Debug-4c8a71ed5f1199a7a8dd.json",
+					"name" : "pico_mbedtls_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_tls::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_tls-Debug-2cb8eaf401f4493cf186.json",
+					"name" : "pico_mbedtls_tls",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_tls_headers::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_tls_headers-Debug-dcca6a0d19181297e2b1.json",
+					"name" : "pico_mbedtls_tls_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_x509::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_x509-Debug-8bedbe0411e3fc02c167.json",
+					"name" : "pico_mbedtls_x509",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 90,
+					"id" : "pico_mbedtls_x509_headers::@889b880c20d67620a3d6",
+					"jsonFile" : "target-pico_mbedtls_x509_headers-Debug-5bb4855bbfdc64018f97.json",
+					"name" : "pico_mbedtls_x509_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops-Debug-47b4e36dd0312eeb2331.json",
+					"name" : "pico_mem_ops",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_compiler::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_compiler-Debug-ce510bbf12c166507243.json",
+					"name" : "pico_mem_ops_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_compiler_headers::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_compiler_headers-Debug-a09ddb77d3da27f40684.json",
+					"name" : "pico_mem_ops_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_default::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_default-Debug-decbe8a639947d5ee37b.json",
+					"name" : "pico_mem_ops_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_headers::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_headers-Debug-1c57b1f30f590afa0239.json",
+					"name" : "pico_mem_ops_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_pico::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_pico-Debug-94eac10d0adcfab85aa4.json",
+					"name" : "pico_mem_ops_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 72,
+					"id" : "pico_mem_ops_pico_headers::@33009e7ae98248310cdb",
+					"jsonFile" : "target-pico_mem_ops_pico_headers-Debug-6707ee950595afd0c013.json",
+					"name" : "pico_mem_ops_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "pico_multicore::@9a13c1d01dbacaad7b33",
+					"jsonFile" : "target-pico_multicore-Debug-1695749aeaf479c56150.json",
+					"name" : "pico_multicore",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 62,
+					"id" : "pico_multicore_headers::@9a13c1d01dbacaad7b33",
+					"jsonFile" : "target-pico_multicore_headers-Debug-85e1c8c3f95f40155c11.json",
+					"name" : "pico_multicore_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_newlib_interface::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_newlib_interface-Debug-5879ef5be278dcbf2d33.json",
+					"name" : "pico_newlib_interface",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_newlib_interface_headers::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_newlib_interface_headers-Debug-e90eae63eed96c029a6d.json",
+					"name" : "pico_newlib_interface_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_picolibc_interface::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_picolibc_interface-Debug-bbfdf826de62b8a9305f.json",
+					"name" : "pico_picolibc_interface",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 96,
+					"id" : "pico_picolibc_interface_headers::@92c8088a6d6c1413af70",
+					"jsonFile" : "target-pico_picolibc_interface_headers-Debug-d74be4e7e243e1fa0d1b.json",
+					"name" : "pico_picolibc_interface_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "pico_platform::@492c3b535f6fa984055f",
+					"jsonFile" : "target-pico_platform-Debug-a2e35155fbc8099aedf6.json",
+					"name" : "pico_platform",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "pico_platform_common::@43a271576fb1743a738e",
+					"jsonFile" : "target-pico_platform_common-Debug-d79c534920f95128c32c.json",
+					"name" : "pico_platform_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 55,
+					"id" : "pico_platform_common_headers::@43a271576fb1743a738e",
+					"jsonFile" : "target-pico_platform_common_headers-Debug-7fe71e4781d134b9cc00.json",
+					"name" : "pico_platform_common_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "pico_platform_compiler::@08fbc75cfba5884e2c06",
+					"jsonFile" : "target-pico_platform_compiler-Debug-78cca94954ba109ef641.json",
+					"name" : "pico_platform_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 56,
+					"id" : "pico_platform_compiler_headers::@08fbc75cfba5884e2c06",
+					"jsonFile" : "target-pico_platform_compiler_headers-Debug-4cc38cb65fcc52f70db4.json",
+					"name" : "pico_platform_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "pico_platform_headers::@492c3b535f6fa984055f",
+					"jsonFile" : "target-pico_platform_headers-Debug-c135f9161da521b10378.json",
+					"name" : "pico_platform_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "pico_platform_panic::@ed40bd03e4b87106b7a3",
+					"jsonFile" : "target-pico_platform_panic-Debug-1e9fc1a95758fd00b2ad.json",
+					"name" : "pico_platform_panic",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 58,
+					"id" : "pico_platform_panic_headers::@ed40bd03e4b87106b7a3",
+					"jsonFile" : "target-pico_platform_panic_headers-Debug-4d26ee5fd36c4d70b885.json",
+					"name" : "pico_platform_panic_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "pico_platform_sections::@04fde5ae655d3f8b4741",
+					"jsonFile" : "target-pico_platform_sections-Debug-3bbbd4e147a6daed6afe.json",
+					"name" : "pico_platform_sections",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 57,
+					"id" : "pico_platform_sections_headers::@04fde5ae655d3f8b4741",
+					"jsonFile" : "target-pico_platform_sections_headers-Debug-5d9ced1a3ef2983d29b9.json",
+					"name" : "pico_platform_sections_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf-Debug-12eb20acd23102393bb1.json",
+					"name" : "pico_printf",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_compiler::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_compiler-Debug-f81fb69bbb4664730a08.json",
+					"name" : "pico_printf_compiler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_compiler_headers::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_compiler_headers-Debug-c84dd6f88a4fd5e6144d.json",
+					"name" : "pico_printf_compiler_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_default::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_default-Debug-f74912003589803511e0.json",
+					"name" : "pico_printf_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_headers::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_headers-Debug-fa8fc4d7bfe799913fd5.json",
+					"name" : "pico_printf_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_none::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_none-Debug-1033ad68e64c2b1e3395.json",
+					"name" : "pico_printf_none",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_none_headers::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_none_headers-Debug-bb9badeb25ae3e304bbd.json",
+					"name" : "pico_printf_none_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_pico::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_pico-Debug-bcf6ffb9cfbc4240aaed.json",
+					"name" : "pico_printf_pico",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 74,
+					"id" : "pico_printf_pico_headers::@7ce8e26071a1a2a63905",
+					"jsonFile" : "target-pico_printf_pico_headers-Debug-1bbd1e93704dc5f1ffef.json",
+					"name" : "pico_printf_pico_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "pico_rand::@4c79d50e28622b798e21",
+					"jsonFile" : "target-pico_rand-Debug-77ecb0f5b892013c5110.json",
+					"name" : "pico_rand",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 75,
+					"id" : "pico_rand_headers::@4c79d50e28622b798e21",
+					"jsonFile" : "target-pico_rand_headers-Debug-420a91be6d1e367f4424.json",
+					"name" : "pico_rand_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 104,
+					"id" : "pico_runtime::@8bd1207636785ef5e642",
+					"jsonFile" : "target-pico_runtime-Debug-38ef54029c1a5b7ed0e6.json",
+					"name" : "pico_runtime",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 104,
+					"id" : "pico_runtime_headers::@8bd1207636785ef5e642",
+					"jsonFile" : "target-pico_runtime_headers-Debug-ad115e251a217ec3c3a4.json",
+					"name" : "pico_runtime_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 103,
+					"id" : "pico_runtime_init::@433da35893c4395dd551",
+					"jsonFile" : "target-pico_runtime_init-Debug-ddc2e8d64a39fd486016.json",
+					"name" : "pico_runtime_init",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 103,
+					"id" : "pico_runtime_init_headers::@433da35893c4395dd551",
+					"jsonFile" : "target-pico_runtime_init_headers-Debug-b545c153d777d66a4b70.json",
+					"name" : "pico_runtime_init_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "pico_sha256::@d07edaf9187c1796fd53",
+					"jsonFile" : "target-pico_sha256-Debug-54b8749e37d6b7b0b6e8.json",
+					"name" : "pico_sha256",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 77,
+					"id" : "pico_sha256_headers::@d07edaf9187c1796fd53",
+					"jsonFile" : "target-pico_sha256_headers-Debug-bf0d200aaa4643bd07cb.json",
+					"name" : "pico_sha256_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "pico_standard_binary_info::@c280859e476eb653c3ad",
+					"jsonFile" : "target-pico_standard_binary_info-Debug-26fb362a87a1a4c337a6.json",
+					"name" : "pico_standard_binary_info",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 98,
+					"id" : "pico_standard_binary_info_headers::@c280859e476eb653c3ad",
+					"jsonFile" : "target-pico_standard_binary_info_headers-Debug-5a7d3a3a4bbd116bc998.json",
+					"name" : "pico_standard_binary_info_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "pico_standard_link::@128212700d4d2b2d40a9",
+					"jsonFile" : "target-pico_standard_link-Debug-e82e6fc67be8efa056df.json",
+					"name" : "pico_standard_link",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 99,
+					"id" : "pico_standard_link_headers::@128212700d4d2b2d40a9",
+					"jsonFile" : "target-pico_standard_link_headers-Debug-5507c1ea295e68df1167.json",
+					"name" : "pico_standard_link_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 102,
+					"id" : "pico_status_led::@c2e5f126dae27421b95b",
+					"jsonFile" : "target-pico_status_led-Debug-43cb28ebac13f6643466.json",
+					"name" : "pico_status_led",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 102,
+					"id" : "pico_status_led_headers::@c2e5f126dae27421b95b",
+					"jsonFile" : "target-pico_status_led_headers-Debug-e71010acf92535090533.json",
+					"name" : "pico_status_led_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "pico_stdio::@d2414feb1b3aa36aaee4",
+					"jsonFile" : "target-pico_stdio-Debug-a7b567e2e6b5651fb28c.json",
+					"name" : "pico_stdio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 105,
+					"id" : "pico_stdio_headers::@d2414feb1b3aa36aaee4",
+					"jsonFile" : "target-pico_stdio_headers-Debug-7c093ad1c86924bac4ea.json",
+					"name" : "pico_stdio_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "pico_stdio_rtt::@912f579280a00aafd447",
+					"jsonFile" : "target-pico_stdio_rtt-Debug-4a6c9787756c87f6d128.json",
+					"name" : "pico_stdio_rtt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 80,
+					"id" : "pico_stdio_rtt_headers::@912f579280a00aafd447",
+					"jsonFile" : "target-pico_stdio_rtt_headers-Debug-1528af11b7783e6377f0.json",
+					"name" : "pico_stdio_rtt_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "pico_stdio_semihosting::@3a820ae500b32caf4afd",
+					"jsonFile" : "target-pico_stdio_semihosting-Debug-c6e73b34a7b181f5725c.json",
+					"name" : "pico_stdio_semihosting",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 78,
+					"id" : "pico_stdio_semihosting_headers::@3a820ae500b32caf4afd",
+					"jsonFile" : "target-pico_stdio_semihosting_headers-Debug-814b23f5d391a0364419.json",
+					"name" : "pico_stdio_semihosting_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "pico_stdio_uart::@41da9ab4695f61e3e078",
+					"jsonFile" : "target-pico_stdio_uart-Debug-b9cb7adc4dbd0fb114d1.json",
+					"name" : "pico_stdio_uart",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 79,
+					"id" : "pico_stdio_uart_headers::@41da9ab4695f61e3e078",
+					"jsonFile" : "target-pico_stdio_uart_headers-Debug-1401c4235cca1ef63661.json",
+					"name" : "pico_stdio_uart_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "pico_stdio_usb::@f0a894bfaafd0a38d775",
+					"jsonFile" : "target-pico_stdio_usb-Debug-9ada18d144e4c316333d.json",
+					"name" : "pico_stdio_usb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 83,
+					"id" : "pico_stdio_usb_headers::@f0a894bfaafd0a38d775",
+					"jsonFile" : "target-pico_stdio_usb_headers-Debug-228e20ea388106f0a30c.json",
+					"name" : "pico_stdio_usb_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 106,
+					"id" : "pico_stdlib::@bdd74ac35cb4d45b5067",
+					"jsonFile" : "target-pico_stdlib-Debug-76243da824da851d365a.json",
+					"name" : "pico_stdlib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "pico_stdlib_headers::@9d44efe1ea89b0d66d81",
+					"jsonFile" : "target-pico_stdlib_headers-Debug-c3cdc357987ab004f5f8.json",
+					"name" : "pico_stdlib_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync-Debug-af79010d55389d0f5074.json",
+					"name" : "pico_sync",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_core::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_core-Debug-dfc5ac5296365a9066a3.json",
+					"name" : "pico_sync_core",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_core_headers::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_core_headers-Debug-ad0c78ca52fc2d63eeb2.json",
+					"name" : "pico_sync_core_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_critical_section::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_critical_section-Debug-569cf52feefb642c8af4.json",
+					"name" : "pico_sync_critical_section",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_critical_section_headers::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_critical_section_headers-Debug-e97461d040a2fbeb6fe9.json",
+					"name" : "pico_sync_critical_section_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_headers::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_headers-Debug-27a3343ab90bf811c1aa.json",
+					"name" : "pico_sync_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_mutex::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_mutex-Debug-2598ea8d53ac9b3c5730.json",
+					"name" : "pico_sync_mutex",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_mutex_headers::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_mutex_headers-Debug-2896d29464b0542fb450.json",
+					"name" : "pico_sync_mutex_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_sem::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_sem-Debug-ebae4b1209b20b06d6e8.json",
+					"name" : "pico_sync_sem",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "pico_sync_sem_headers::@04b15b98fcb37c7b0422",
+					"jsonFile" : "target-pico_sync_sem_headers-Debug-688312c4d136ce8aaa52.json",
+					"name" : "pico_sync_sem_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local-Debug-e480bcd90a6742effdd1.json",
+					"name" : "pico_thread_local",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_global::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_global-Debug-f39bbb7293dd4b7c71a2.json",
+					"name" : "pico_thread_local_global",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_global_headers::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_global_headers-Debug-4efa74c1a1a1ec1ad688.json",
+					"name" : "pico_thread_local_global_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_headers::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_headers-Debug-bfa5f45bbe3daf397278.json",
+					"name" : "pico_thread_local_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_none::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_none-Debug-bbf6d192fbaa028dd6dd.json",
+					"name" : "pico_thread_local_none",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_none_headers::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_none_headers-Debug-a1b0a35c16eb54c98d0a.json",
+					"name" : "pico_thread_local_none_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_per_thread::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_per_thread-Debug-35dc8308770b786c06e5.json",
+					"name" : "pico_thread_local_per_thread",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 76,
+					"id" : "pico_thread_local_per_thread_headers::@7961ecafe901dd000d34",
+					"jsonFile" : "target-pico_thread_local_per_thread_headers-Debug-065dea0672ff0ae7b482.json",
+					"name" : "pico_thread_local_per_thread_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "pico_time::@ed071ba82cca6745b785",
+					"jsonFile" : "target-pico_time-Debug-3e76a317d302a98f5128.json",
+					"name" : "pico_time",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "pico_time_adapter::@eef2d1a5569c9ea43cc2",
+					"jsonFile" : "target-pico_time_adapter-Debug-01924f1e39676299c77b.json",
+					"name" : "pico_time_adapter",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 94,
+					"id" : "pico_time_adapter_headers::@eef2d1a5569c9ea43cc2",
+					"jsonFile" : "target-pico_time_adapter_headers-Debug-6e0684ae1235daa95456.json",
+					"name" : "pico_time_adapter_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "pico_time_headers::@ed071ba82cca6745b785",
+					"jsonFile" : "target-pico_time_headers-Debug-8bb90971e0345c52de7f.json",
+					"name" : "pico_time_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "pico_unique_id::@36eb7f981929521e7e8e",
+					"jsonFile" : "target-pico_unique_id-Debug-b6f0052fcf0d0c757329.json",
+					"name" : "pico_unique_id",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 63,
+					"id" : "pico_unique_id_headers::@36eb7f981929521e7e8e",
+					"jsonFile" : "target-pico_unique_id_headers-Debug-7a05c147bf391e4cf405.json",
+					"name" : "pico_unique_id_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "pico_usb_reset::@9a2f51106d6f5f7b0cda",
+					"jsonFile" : "target-pico_usb_reset-Debug-56e7348f8e8c58e50b69.json",
+					"name" : "pico_usb_reset",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 84,
+					"id" : "pico_usb_reset_headers::@9a2f51106d6f5f7b0cda",
+					"jsonFile" : "target-pico_usb_reset_headers-Debug-c0fccb09dab6fa03ec06.json",
+					"name" : "pico_usb_reset_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "pico_usb_reset_interface_headers::@018505daf96f541e87e0",
+					"jsonFile" : "target-pico_usb_reset_interface_headers-Debug-429c1ec50df3994b9376.json",
+					"name" : "pico_usb_reset_interface_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "pico_util::@ae1b41bac91fbd4bd90b",
+					"jsonFile" : "target-pico_util-Debug-42b115729ecd03c721e6.json",
+					"name" : "pico_util",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "pico_util_headers::@ae1b41bac91fbd4bd90b",
+					"jsonFile" : "target-pico_util_headers-Debug-b13bdaf5b677885d0da5.json",
+					"name" : "pico_util_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "picotool::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-picotool-Debug-4d02f53ce28e3a3a1ba1.json",
+					"name" : "picotool",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "picotool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-picotool-Debug-6294cd6991c2512354ee.json",
+					"name" : "picotool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 102,
+					"id" : "pioasm::@c2e5f126dae27421b95b",
+					"jsonFile" : "target-pioasm-Debug-b66be72144f7c98f7fe0.json",
+					"name" : "pioasm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "pioasm::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-pioasm-Debug-fc32f24cf3c908bbde81.json",
+					"name" : "pioasm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_additions::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_additions-Debug-a4536f61b71f3bc5ebaa.json",
+					"name" : "tinyusb_additions",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_board::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_board-Debug-667311896476eab9c522.json",
+					"name" : "tinyusb_board",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_board_headers::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_board_headers-Debug-23c3f9bf133150fa8353.json",
+					"name" : "tinyusb_board_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_bsp::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_bsp-Debug-b1748d35837cafd36388.json",
+					"name" : "tinyusb_bsp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_common::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_common-Debug-9e8dce96254e52d2ffad.json",
+					"name" : "tinyusb_common",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_common_base::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_common_base-Debug-7826303e9afa0d061a8c.json",
+					"name" : "tinyusb_common_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_device::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_device-Debug-71948d7e38637bfd093e.json",
+					"name" : "tinyusb_device",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_device_base::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_device_base-Debug-588a9816b48103fdc0d7.json",
+					"name" : "tinyusb_device_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_device_headers::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_device_headers-Debug-92d998ede681f1ed3b1e.json",
+					"name" : "tinyusb_device_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_device_unmarked::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_device_unmarked-Debug-43f76f07b4c5341a0989.json",
+					"name" : "tinyusb_device_unmarked",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_host::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_host-Debug-308256624168683f6281.json",
+					"name" : "tinyusb_host",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_host_base::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_host_base-Debug-94551abed2eb121f85c6.json",
+					"name" : "tinyusb_host_base",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_host_headers::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_host_headers-Debug-8003b3a2fd18e9695a24.json",
+					"name" : "tinyusb_host_headers",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "tinyusb_host_max3421::@36e52159cb4e937c58c5",
+					"jsonFile" : "target-tinyusb_host_max3421-Debug-1df96e3d0ec83f90146c.json",
+					"name" : "tinyusb_host_max3421",
+					"projectIndex" : 1
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						3,
+						345
+					],
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "pico-sdk",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						107
+					],
+					"jsonFile" : "directory-pico-sdk-Debug-be50259a31b304761371.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1"
+				},
+				{
+					"build" : "pico-sdk/tools",
+					"jsonFile" : "directory-pico-sdk.tools-Debug-25b002fd5c23b6a8e01c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/tools"
+				},
+				{
+					"build" : "pico-sdk/src",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						90,
+						91,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						102,
+						103,
+						104,
+						105,
+						106
+					],
+					"jsonFile" : "directory-pico-sdk.src-Debug-4dac2314fafa9e35f52f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5
+					],
+					"build" : "pico-sdk/src/common/boot_picobin_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.boot_picobin_headers-Debug-09fda61c4b6810a1e66e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/boot_picobin_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						6
+					],
+					"build" : "pico-sdk/src/common/boot_picoboot_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.boot_picoboot_headers-Debug-204d0fca457ae8e4affd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/boot_picoboot_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						9
+					],
+					"build" : "pico-sdk/src/common/boot_uf2_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.boot_uf2_headers-Debug-716fd94b42431f0a699b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/boot_uf2_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						102,
+						103
+					],
+					"build" : "pico-sdk/src/common/pico_base_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_base_headers-Debug-ee24ed00a73c5aae3721.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_base_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						341
+					],
+					"build" : "pico-sdk/src/common/pico_usb_reset_interface_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_usb_reset_interface_headers-Debug-19672fc5ece99d80dad0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_usb_reset_interface_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						110
+					],
+					"build" : "pico-sdk/src/common/pico_bit_ops_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_bit_ops_headers-Debug-a3c3df5c3e77d4367b4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_bit_ops_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						104,
+						105
+					],
+					"build" : "pico-sdk/src/common/pico_binary_info",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_binary_info-Debug-95b846e73b8c33ab1a77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_binary_info"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						158
+					],
+					"build" : "pico-sdk/src/common/pico_divider_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_divider_headers-Debug-b6c79960bd9c2fefa3d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_divider_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						315,
+						316,
+						317,
+						318,
+						319,
+						320,
+						321,
+						322,
+						323,
+						324
+					],
+					"build" : "pico-sdk/src/common/pico_sync",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_sync-Debug-f9d1269678f72df23387.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_sync"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						333,
+						336
+					],
+					"build" : "pico-sdk/src/common/pico_time",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_time-Debug-cb401815668704461a90.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_time"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						342,
+						343
+					],
+					"build" : "pico-sdk/src/common/pico_util",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_util-Debug-046f1c072172527a27e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_util"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						314
+					],
+					"build" : "pico-sdk/src/common/pico_stdlib_headers",
+					"jsonFile" : "directory-pico-sdk.src.common.pico_stdlib_headers-Debug-0e9b8cc2dcf70961fb9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/pico_stdlib_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						24,
+						25
+					],
+					"build" : "pico-sdk/src/common/hardware_claim",
+					"jsonFile" : "directory-pico-sdk.src.common.hardware_claim-Debug-b5222c66bba9687bc5b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/common/hardware_claim"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						270,
+						275
+					],
+					"build" : "pico-sdk/src/rp2350/pico_platform",
+					"jsonFile" : "directory-pico-sdk.src.rp2350.pico_platform-Debug-68ca9003024ed002aca6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2350/pico_platform"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						58,
+						59
+					],
+					"build" : "pico-sdk/src/rp2350/hardware_regs",
+					"jsonFile" : "directory-pico-sdk.src.rp2350.hardware_regs-Debug-69ae612b0ad96c8d875d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2350/hardware_regs"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						70,
+						71
+					],
+					"build" : "pico-sdk/src/rp2350/hardware_structs",
+					"jsonFile" : "directory-pico-sdk.src.rp2350.hardware_structs-Debug-181bdf03abe67b24d515.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2350/hardware_structs"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						7,
+						8,
+						344
+					],
+					"build" : "pico-sdk/src/rp2350/boot_stage2",
+					"jsonFile" : "directory-pico-sdk.src.rp2350.boot_stage2-Debug-70129731cfc482d7f470.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2350/boot_stage2",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						20,
+						21
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_base",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_base-Debug-db5e8e207ee353369766.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_base"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						18,
+						19
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_adc",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_adc-Debug-d1fee2f5252b42095b7a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_adc"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						22,
+						23
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_boot_lock",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_boot_lock-Debug-caec07494cfbbc82a6ce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_boot_lock"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						26,
+						27
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_clocks",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_clocks-Debug-2f4067d5601443f3df05.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_clocks"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						30,
+						31
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_divider",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_divider-Debug-e3396237fee1187fa02c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_divider"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						32,
+						33
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_dma",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_dma-Debug-612448973be196f99cc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_dma"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						34,
+						35
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_exception",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_exception-Debug-bea6a755f16e79aaf8d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_exception"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						36,
+						37
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_flash",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_flash-Debug-7f243369efd3b7a84d8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_flash"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						38,
+						39
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_gpio",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_gpio-Debug-a0382f97d230e4f57264.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_gpio"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						40,
+						41
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_i2c",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_i2c-Debug-fce9f09a79e6f414c1bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_i2c"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						42,
+						43
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_interp",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_interp-Debug-d689998262052b541f33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_interp"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						44,
+						45
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_irq",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_irq-Debug-77988426ad7ec53c546d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_irq"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						46,
+						47
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_pio",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_pio-Debug-9f20b4cc584484b8970b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_pio"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						48,
+						49
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_pll",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_pll-Debug-f926fed6af8a48d83b29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_pll"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						54,
+						55
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_pwm",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_pwm-Debug-18ae5e9a6def519104dc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_pwm"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						60,
+						61
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_resets",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_resets-Debug-fb5ea714408260fee4b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_resets"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						64,
+						65
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_rosc",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_rosc-Debug-27bd11609db35952c4d6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_rosc"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						68,
+						69
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_spi",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_spi-Debug-35ff7d65fe7e1ac56586.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_spi"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						72,
+						73
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_sync",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_sync-Debug-f0ec3393e663a94034b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_sync"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						74,
+						75
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_sync_spin_lock",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_sync_spin_lock-Debug-505ce2d44b7d78a51978.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_sync_spin_lock"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						76,
+						77
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_ticks",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_ticks-Debug-55d1d7eec86755b84967.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_ticks"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						78,
+						79
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_timer",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_timer-Debug-20202065d8160431f213.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_timer"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						80,
+						81
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_uart",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_uart-Debug-b52a9b42407673ca1f7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_uart"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						82,
+						83
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_vreg",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_vreg-Debug-f673a14e842818a8e997.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_vreg"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						84,
+						85
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_watchdog",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_watchdog-Debug-c667682b803d34c289c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_watchdog"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						86,
+						87
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_xip_cache",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_xip_cache-Debug-acaca5f82de632b432ff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_xip_cache"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						88,
+						89
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_xosc",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_xosc-Debug-e93ff4da8d58059b02c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_xosc"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						50,
+						51
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_powman",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_powman-Debug-abc593131415096de471.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_powman"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						52,
+						53
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_psram",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_psram-Debug-04eb37a1196ff2dc6d97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_psram"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						62,
+						63
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_riscv_platform_timer",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_riscv_platform_timer-Debug-cf75d46dcfc49b239950.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_riscv_platform_timer"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						66,
+						67
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_sha256",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_sha256-Debug-135108de599173036998.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_sha256"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						28,
+						29
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_dcp",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_dcp-Debug-5b76803d8e6d06bbbeb3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_dcp"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						56,
+						57
+					],
+					"build" : "pico-sdk/src/rp2_common/hardware_rcp",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.hardware_rcp-Debug-ebfe03ee23f9f746ae6b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/hardware_rcp"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4
+					],
+					"build" : "pico-sdk/src/rp2_common/boot_bootrom_headers",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.boot_bootrom_headers-Debug-e46648ee28ddae354b83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/boot_bootrom_headers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						271,
+						272
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_platform_common",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_platform_common-Debug-0a1b8271b66a15db9cf4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_common"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						273,
+						274
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_platform_compiler",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_platform_compiler-Debug-0c04b35c506be73c025b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_compiler"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						278,
+						279
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_platform_sections",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_platform_sections-Debug-975509c7bcfe70d66a99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_sections"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						276,
+						277
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_platform_panic",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_platform_panic-Debug-80c4c14736a360bf6950.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_platform_panic"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						90,
+						91
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_aon_timer",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_aon_timer-Debug-8f94b6c213c15bb7097d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_aon_timer"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						113,
+						114,
+						115
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_bootrom",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_bootrom-Debug-e95140d3b6cf24aef923.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bootrom"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						116,
+						117
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_bootsel_via_double_reset",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_bootsel_via_double_reset-Debug-9f149b96637a2fde27c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bootsel_via_double_reset"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						264,
+						265
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_multicore",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_multicore-Debug-b4ad724372ef74ac893e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_multicore"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						337,
+						338
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_unique_id",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_unique_id-Debug-d6286b7e4d6373129b40.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_unique_id"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						100,
+						101
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_atomic",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_atomic-Debug-b807b96e9f27a8446d50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_atomic"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						106,
+						107,
+						108,
+						109,
+						111,
+						112
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_bit_ops",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_bit_ops-Debug-2ce1827678df3af5c5e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_bit_ops"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						159
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_divider",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_divider-Debug-bd7f067c394a7421bb56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_divider"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_double",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_double-Debug-55b38aef9a532be8493c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_double"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_int64_ops",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_int64_ops-Debug-d834e9c29b3666924aa6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_int64_ops"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						173,
+						174
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_flash",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_flash-Debug-1766e74ca77177eabe29.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_flash"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_float",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_float-Debug-7d6f0dd09f6ca44dadc7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_float"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						199,
+						200
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_low_power",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_low_power-Debug-a6844027e20d01a9f182.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_low_power"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_mem_ops",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_mem_ops-Debug-db812812e4c8dfd12a97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_mem_ops"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						247,
+						248
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_malloc",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_malloc-Debug-2a5a8b7118874fdd2db8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_malloc"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_printf",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_printf-Debug-a896abd6f925be7eba37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_printf"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						289,
+						290
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_rand",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_rand-Debug-9aa323d7655d28802175.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_rand"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_thread_local",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_thread_local-Debug-b7cac1973070046cc911.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_thread_local"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						295,
+						296
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_sha256",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_sha256-Debug-03a19f69ccb980eae809.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_sha256"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						307,
+						308
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_semihosting",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdio_semihosting-Debug-a8211a5e0a814c416362.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_semihosting"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						309,
+						310
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_uart",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdio_uart-Debug-daed095df703881b76b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_uart"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						305,
+						306
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_rtt",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdio_rtt-Debug-d9e06613b58b3fe12056.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_rtt"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						10,
+						11
+					],
+					"build" : "pico-sdk/src/rp2_common/cmsis",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.cmsis-Debug-7731b6566b5e28882d94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/cmsis"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						348,
+						349,
+						350,
+						351,
+						352,
+						353,
+						354,
+						355,
+						356,
+						357,
+						358,
+						359,
+						360,
+						361
+					],
+					"build" : "pico-sdk/src/rp2_common/tinyusb",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.tinyusb-Debug-9b6637ac3fb39736b846.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/tinyusb"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						311,
+						312
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdio_usb",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdio_usb-Debug-65e08e48bd8b5a7c2fe4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio_usb"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						339,
+						340
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_usb_reset",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_usb_reset-Debug-a125208d81b3d53bd164.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_usb_reset"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						188,
+						189
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_i2c_slave",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_i2c_slave-Debug-2b0566c4c911d9d79cd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_i2c_slave"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_async_context",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_async_context-Debug-b0979a65ecae08fb65fb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_async_context"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_btstack",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_btstack-Debug-04316ec55edbf666a340.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_btstack"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17,
+						130,
+						131,
+						148,
+						149,
+						347
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_cyw43_driver",
+					"childIndexes" : 
+					[
+						89
+					],
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_cyw43_driver-Debug-992b485fa9a306f382f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_cyw43_driver",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						12,
+						13
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_cyw43_driver.cybt_shared_bus-Debug-cd03a7f2acc6345276b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_cyw43_driver/cybt_shared_bus"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_mbedtls",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_mbedtls-Debug-520f64c01e68c0c14131.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_mbedtls"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_lwip",
+					"childIndexes" : 
+					[
+						92
+					],
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_lwip-Debug-00f1ce4e59255c736b0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_lwip"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_lwip/tools",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_lwip.tools-Debug-f7532c494f5a450fee91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 91,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_lwip/tools"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_cyw43_arch",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_cyw43_arch-Debug-6b11c5e9658d5bca2ae7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_cyw43_arch"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						334,
+						335
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_time_adapter",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_time_adapter-Debug-3d5a721bbf82fc66c9a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_time_adapter"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						144,
+						145
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_crt0",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_crt0-Debug-b2096edbbfb5b83aaa3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_crt0"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						142,
+						143,
+						197,
+						198,
+						266,
+						267,
+						268,
+						269
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_clib_interface",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_clib_interface-Debug-8e1531ebfdbdef1f60a9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_clib_interface"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						146,
+						147
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_cxx_options",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_cxx_options-Debug-f29005e6cf611af4e76f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_cxx_options"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						297,
+						298
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_standard_binary_info",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_standard_binary_info-Debug-8c5d1cb709333612f751.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_standard_binary_info"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						299,
+						300
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_standard_link",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_standard_link-Debug-a6cec365d8e53bf5965e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_standard_link"
+				},
+				{
+					"build" : "pico-sdk/src/rp2_common/pico_fix",
+					"childIndexes" : 
+					[
+						101
+					],
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_fix-Debug-870d68c65980d4d991f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_fix"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						171,
+						172
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_fix.rp2040_usb_device_enumeration-Debug-98912e24dfc64dd24d8a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 100,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_fix/rp2040_usb_device_enumeration"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						301,
+						302,
+						346
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_status_led",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_status_led-Debug-5d33c4e392382a5b253d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_status_led",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						293,
+						294
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_runtime_init",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_runtime_init-Debug-1afd2c28effc12146e68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime_init"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						291,
+						292
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_runtime",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_runtime-Debug-aa807053a8a561766cd3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_runtime"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						303,
+						304
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdio",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdio-Debug-173189a49005628607a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdio"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						313
+					],
+					"build" : "pico-sdk/src/rp2_common/pico_stdlib",
+					"jsonFile" : "directory-pico-sdk.src.rp2_common.pico_stdlib-Debug-0dec67d164a010426010.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/src/rp2_common/pico_stdlib"
+				},
+				{
+					"build" : "pico-sdk/docs",
+					"jsonFile" : "directory-pico-sdk.docs-Debug-23e3ecd746f5557d1868.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "C:/Users/dcart/.pico-sdk/sdk/2.3.1/docs"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						3,
+						345
+					],
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Final_Proj_Main",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107,
+						108,
+						109,
+						110,
+						111,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						122,
+						123,
+						124,
+						125,
+						126,
+						127,
+						128,
+						129,
+						130,
+						131,
+						132,
+						133,
+						134,
+						135,
+						136,
+						137,
+						138,
+						139,
+						140,
+						141,
+						142,
+						143,
+						144,
+						145,
+						146,
+						147,
+						148,
+						149,
+						150,
+						151,
+						152,
+						153,
+						154,
+						155,
+						156,
+						157,
+						158,
+						159,
+						160,
+						161,
+						162,
+						163,
+						164,
+						165,
+						166,
+						167,
+						168,
+						169,
+						170,
+						171,
+						172,
+						173,
+						174,
+						175,
+						176,
+						177,
+						178,
+						179,
+						180,
+						181,
+						182,
+						183,
+						184,
+						185,
+						186,
+						187,
+						188,
+						189,
+						190,
+						191,
+						192,
+						193,
+						194,
+						195,
+						196,
+						197,
+						198,
+						199,
+						200,
+						201,
+						202,
+						203,
+						204,
+						205,
+						206,
+						207,
+						208,
+						209,
+						210,
+						211,
+						212,
+						213,
+						214,
+						215,
+						216,
+						217,
+						218,
+						219,
+						220,
+						221,
+						222,
+						223,
+						224,
+						225,
+						226,
+						227,
+						228,
+						229,
+						230,
+						231,
+						232,
+						233,
+						234,
+						235,
+						236,
+						237,
+						238,
+						239,
+						240,
+						241,
+						242,
+						243,
+						244,
+						245,
+						246,
+						247,
+						248,
+						249,
+						250,
+						251,
+						252,
+						253,
+						254,
+						255,
+						256,
+						257,
+						258,
+						259,
+						260,
+						261,
+						262,
+						263,
+						264,
+						265,
+						266,
+						267,
+						268,
+						269,
+						270,
+						271,
+						272,
+						273,
+						274,
+						275,
+						276,
+						277,
+						278,
+						279,
+						280,
+						281,
+						282,
+						283,
+						284,
+						285,
+						286,
+						287,
+						288,
+						289,
+						290,
+						291,
+						292,
+						293,
+						294,
+						295,
+						296,
+						297,
+						298,
+						299,
+						300,
+						301,
+						302,
+						303,
+						304,
+						305,
+						306,
+						307,
+						308,
+						309,
+						310,
+						311,
+						312,
+						313,
+						314,
+						315,
+						316,
+						317,
+						318,
+						319,
+						320,
+						321,
+						322,
+						323,
+						324,
+						325,
+						326,
+						327,
+						328,
+						329,
+						330,
+						331,
+						332,
+						333,
+						334,
+						335,
+						336,
+						337,
+						338,
+						339,
+						340,
+						341,
+						342,
+						343,
+						344,
+						346,
+						347,
+						348,
+						349,
+						350,
+						351,
+						352,
+						353,
+						354,
+						355,
+						356,
+						357,
+						358,
+						359,
+						360,
+						361
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						103,
+						104,
+						105,
+						106,
+						107
+					],
+					"name" : "pico_sdk",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Final_Proj_Main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Final_Proj_Main-Debug-5a9733286090e8ea5d2f.json",
+					"name" : "Final_Proj_Main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "bs2_default::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-bs2_default-Debug-c083b2b95d90146c6bdd.json",
+					"name" : "bs2_default",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "bs2_default_bin::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-bs2_default_bin-Debug-f2cb4ed26d9a49cf7c48.json",
+					"name" : "bs2_default_bin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "bs2_default_library::@9e89cb6b53d747b62405",
+					"jsonFile" : "target-bs2_default_library-Debug-aae3d7a59769f9dd56d6.json",
+					"name" : "bs2_default_library",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 88,
+					"id" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h::@c2fb4f534018e64680d5",
+					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-fb0830d6afd71bfaf736.json",
+					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 102,
+					"id" : "pico_status_led_ws2812_pio_h::@c2e5f126dae27421b95b",
+					"jsonFile" : "target-pico_status_led_ws2812_pio_h-Debug-207bace041c207a385af.json",
+					"name" : "pico_status_led_ws2812_pio_h",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dcart/Desktop/URI/OCE-560/Final Project/Code/Final_Proj_Main/build",
+		"source" : "C:/Users/dcart/Desktop/URI/OCE-560/Final Project/Code/Final_Proj_Main"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}
