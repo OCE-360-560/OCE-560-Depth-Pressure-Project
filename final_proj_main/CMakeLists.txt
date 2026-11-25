@@ -45,7 +45,8 @@ add_executable(final_proj_main final_proj_main.c
 light_sensor.c 
 sd_card_reader.c 
 pressure_sensor.c 
-push_button.c)
+push_button.c
+LCD.c)
 
 pico_set_program_name(final_proj_main "final_proj_main")
 pico_set_program_version(final_proj_main "0.1")

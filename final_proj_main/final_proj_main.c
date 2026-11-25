@@ -14,7 +14,33 @@
 #include "hardware/i2c.h"
 #include "bno08x.h"
 #include "air530.h"
-// #include "veml7700.h"
+#include "pico/stdlib.h"
+#include "lcd.h"
+#include "pico/stdlib.h"
+#include "lcd.h"
+// #include "lps28dfw.h"
+#include "VEML7700.h"
+
+#include <stdio.h>
+#include <string.h>
+
+#define LCD_ADDRESS     0x27
+#define SENSOR_ADDRESS  0x5C
+
+// Write a complete 16-character LCD line
+static void lcd_write_line(lcd_t *lcd,
+                           uint row,
+                           const char *text)
+{
+    char line[17];
+
+    snprintf(line, sizeof(line), "%-16.16s", text);
+
+    lcd_move_to(lcd, 0, row);
+    lcd_puts(lcd, line);
+}
+
+
 
 /* -------------------------------
    LPS28 Configuration
@@ -32,7 +58,6 @@ int main()
     stdio_init_all();
     sleep_ms(2000); // Delay to allow terminal to open
     printf("Start - VEML7700 example\n");
-
 
 
     // Light sensor state structure initialization
@@ -59,6 +84,9 @@ sleep_ms(1000); // Short pause after power on
     float pressure;
     float temperature;
 
+    char pressure_text[17];
+    char temperature_text[17];
+
     printf("\nLPS28 Test\n");
 
     /* Initialize I2C */
@@ -80,11 +108,66 @@ sleep_ms(1000); // Short pause after power on
 
 
 
+
+
+    // LCD Display init
+        // Configure LCD pins
+    /* lcd_t lcd = {
+        .rs = 16,
+        .en = 17,
+        .d4 = 18,
+        .d5 = 19,
+        .d6 = 20,
+        .d7 = 21,
+        .backlight = -1
+    };
+
+        // Initialize 16-column, 2-line LCD
+    lcd_init(&lcd, 16, 2);
+
+    // Display first line
+    lcd_puts(&lcd, "Hello Raspberry!");
+
+    // Move to second line
+    lcd_move_to(&lcd, 0, 1);
+
+    lcd_puts(&lcd, "Pico 2 C Code"); */
+
+
+// LCD configuration (newer)
+    lcd_t lcd;
+
+    // Initialize LCD using I2C0
+    lcd_init(&lcd,
+             i2c0,
+             4, 5,
+             LCD_ADDRESS,
+             16, 2);
+
+    lcd_clear(&lcd);
+
+    lcd_write_line(&lcd, 0, "Starting system");
+    lcd_write_line(&lcd, 1, "Please wait...");
+
+    // Initialize pressure sensor
+//    if (!lps28dfw_init(i2c0, SENSOR_ADDRESS))
+    if (!LPS28_Init())
+    {
+        lcd_clear(&lcd);
+        lcd_write_line(&lcd, 0, "Sensor ERROR");
+        lcd_write_line(&lcd, 1, "Check wiring");
+    }
+
+lcd_clear(&lcd);
+
+
+
+
+
 while (true)
 {
     // Read in both ambient light and ALS light
     status_lux = read_light_sensor(&lux_reading, &light_sensor);
-
     sleep_ms(1000); // Wait 1 second before next reading
 
     
@@ -111,9 +194,18 @@ while (true)
                        temperature);
 
                 printf("----------------------\n");
+
+                lcd_write_line(&lcd, 0, pressure_text);
+            lcd_write_line(&lcd, 1, temperature_text);
+            }
+            else{
+                 lcd_write_line(&lcd, 0, "Sensor read ERROR");
+            lcd_write_line(&lcd, 1, "Check connection");
             }
         }
 }
 
 
 }
+
+
